@@ -11,6 +11,9 @@ public class Etudiant {
     public double note5;
     public double note6;
 
+
+    //Constructeur permettant de créer un étudiant avec ses informations et ses notes
+
     public Etudiant(String cne, String nom, double note1, double note2, double note3, double note4, double note5, double note6) {
         this.cne = cne;
         this.nom = nom;
